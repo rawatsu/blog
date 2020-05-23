@@ -1,14 +1,16 @@
 ---
 layout: default
+comments: true
 ---
 
 <div class="post">
   <h1 class="post-title">{{ page.title }}</h1>
   <span class="post-date">{{ page.date | date_to_string }}</span>
+    <br/>
   {{ content }}
-    {% if site.disqus.subhandurawat %}
+  {% if site.disqus.subhandurawat %}
   {% include disqus_comments.html %}
-{% endif %}
+  {% endif %}
 
 <script id="dsq-count-scr" src="//subhandurawat.disqus.com/count.js" async></script>
 </div>
