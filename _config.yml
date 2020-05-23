@@ -5,7 +5,8 @@ description:         'A reserved <a href="https://jekyllrb.com" target="_blank">
 production_url:       https://rawatsu.github.io/blog
 baseurl:             '/blog'
 paginate:            5
-permalink:           pretty
+#permalink:           pretty
+permalink: /:categories/:title/
 
 # About/contact
 author:
