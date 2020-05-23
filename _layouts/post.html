@@ -37,3 +37,9 @@ layout: default
   {% unless forloop.last %}&nbsp;{% endunless %}
   {% endfor %}
 </div>
+
+{% if site.disqus.subhandurawat %}
+  {% include disqus_comments.html %}
+{% endif %}
+
+<script id="dsq-count-scr" src="//subhandurawat.disqus.com/count.js" async></script>
