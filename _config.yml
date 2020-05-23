@@ -1,7 +1,7 @@
 # Setup
 title:               Subhandu Rawat
 tagline:             'Blog'
-description:         'Welcome to my blog. Here I write about Turbulence, Aerodynamics, Programming'
+description:         'Welcome to my blog. Here I write about Turbulence, Aerodynamics, Data science and Programming'
 production_url:       https://rawatsu.github.io/blog
 baseurl:             '/blog'
 paginate:            5
