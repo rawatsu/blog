@@ -1,11 +1,16 @@
-{% if page.comments != false and jekyll.environment == "production" %}
+{% if page.comments != false}
+<div id="disqus_thread"></div>
+<script>
 
-  <div id="disqus_thread"></div>
-  <script>
-    var disqus_config = function () {
-      this.page.url = '{{ page.url | absolute_url }}';
+/**
+*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+
+var disqus_config = function () {
+      this.page.url = "https://rawatsu.github.io/blog{{ page.url }}";
       this.page.identifier = '{{ page.url | absolute_url }}';
     };
+
 (function() { // DON'T EDIT BELOW THIS LINE
 var d = document, s = d.createElement('script');
 s.src = 'https://subhandurawat.disqus.com/embed.js';
