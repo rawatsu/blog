@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<url>
+<loc>http://localhost:4000/blog/tech/whats-jekyll/</loc>
+<lastmod>2020-04-01T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/personal/example-content/</loc>
+<lastmod>2020-04-02T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/tech/introducing-lanyon/</loc>
+<lastmod>2020-04-03T00:00:00+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/jekyll/update/welcome-to-jekyll/</loc>
+<lastmod>2020-05-20T18:09:31+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/jekyll/update/welcome-to-jekyll/</loc>
+<lastmod>2020-05-22T18:09:31+05:30</lastmod>
+</url>
+<url>
+<loc>http://localhost:4000/blog/about/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/categories/</loc>
+</url>
+<url>
+<loc>http://localhost:4000/blog/</loc>
+</url>
+</urlset>
