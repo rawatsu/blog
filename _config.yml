@@ -22,4 +22,5 @@ plugins:
 version:             1.1.0
 google_analytics_id: #UA-XXXX-Y
 
-gem: - jekyll-sitemap
+gem:
+    - jekyll-sitemap
