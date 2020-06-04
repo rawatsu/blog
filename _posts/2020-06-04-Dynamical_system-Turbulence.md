@@ -13,12 +13,12 @@ It can be demonstrated mathematically that the solutions of dissipative PDE's ar
 
 In dynamic system theory the equation of motion is  generally represented as :
 
- $$\frac{d{**u**}}{dt} = **f**(**u**,\nu)$$
+ $$\frac{d{\mathbfu}}{dt} = f(u,\nu)$$
 where **f** is a evolution function that map one point in phase space to another. For a deterministic dynamical system like Navier-Stokes, each single point in phase space represents a physical state of the system. Coherent structures observed in turbulent flows are considered 
 to be as low-dimensional invariant sets in phase space. These invariant states can be classified into three main categories :
 
 
 
-1. $$\frac{d**u**}{dt} = f(**u**,\nu) = 0$$; Travelling waves, equillibrium points.
- 2. $$**u**(x,t) = **u**(x,t+T)$$;  periodic or relative periodic orbits.
- 3. $$**u**(x,t) \neq **u**(x,t')$$;  for all $$t \neq t'$$ aperiodic trajectories. 
+1. $$\frac{du}{dt} = f(u,\nu) = 0$$; Travelling waves, equillibrium points.
+ 2. $$u(x,t) = u(x,t+T)$$;  periodic or relative periodic orbits.
+ 3. $$u(x,t) \neq u(x,t')$$;  for all $$t \neq t'$$ aperiodic trajectories. 
