@@ -28,8 +28,45 @@
   <link rel="alternate" type="application/rss+xml" title="RSS" href="http://localhost:4000/blog/atom.xml">
 
   
+    
 </head>
 
+  <script type="text/x-mathjax-config">
+  MathJax.Hub.Config({
+    extensions: [
+      "MathMenu.js",
+      "MathZoom.js",
+      "AssistiveMML.js",
+      "a11y/accessibility-menu.js"
+    ],
+    jax: ["input/TeX", "output/CommonHTML"],
+    TeX: {
+      extensions: [
+        "AMSmath.js",
+        "AMSsymbols.js",
+        "noErrors.js",
+        "noUndefined.js",
+      ]
+    }
+  });
+  MathJax.Hub.Register.StartupHook("TeX Jax Ready",function () {
+    var TEX = MathJax.InputJax.TeX;
+    var COLS = function (W) {
+      var WW = [];
+      for (var i = 0, m = W.length; i < m; i++)
+        {WW[i] = TEX.Parse.prototype.Em(W[i])}
+      return WW.join(" ");
+    };
+    TEX.Definitions.Add({
+      environment: {
+        psmallmatrix: ['Array',null,'(',')','c',COLS([1/3]),".2em",'S',1],
+      }
+    });
+  });
+</script>
+<script type="text/javascript" async
+  src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/latest.js">
+</script>
 
   <body class="theme-base-08 layout-reverse sidebar-overlay">
 
@@ -128,6 +165,8 @@
 <p>Find out more by <a href="https://github.com/mojombo/jekyll">visiting the project on GitHub</a>.</p>
 
 <p>In last few decades, dynamical system theory have found its way to theory of turbulence. Fluid flow can be explained from the solution of Navier-Stokes equation. The solution described by this  nonlinear partial differential equation is infinite dimensional, as one need infinite ordinary differential equation to solve this PDE. Hopf conjectured that solution of N-S equations can be represented as a point in an infinite-dimensional phase space of the problem, constituted by suitably chosen state space variables. He further hypothesized that these solution lie on a finite dimensional manifold, size of whose dimension depends upon the viscosity, varing from 0 for (\nu \to \infty ), to (\infty) for (\nu \to 0). This low-dimensional manifold  becomes unstable and bifurcates into many other branches as viscosity (\nu) is decreased. It can be demonstrated mathematically that the solutions of dissipative PDE’s are restricted to global attracters which are embedded in inertial manifolds.</p>
+
+\[\frac{1}{n^{2}}\]
 
 
   </div>
@@ -393,23 +432,7 @@
     <label for="sidebar-checkbox" class="sidebar-toggle"></label>
 
     <script src='/blog/public/js/script.js'></script>
-    <script type="text/javascript"
-        src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS_CHTML"></script>
-      
-      <script type="text/x-mathjax-config">
-                MathJax.Hub.Config({
-                tex2jax: {
-                inlineMath: [['$','$'], ['\\(','\\)']],
-                processEscapes: true},
-                jax: ["input/TeX","input/MathML","input/AsciiMath","output/CommonHTML"],
-                extensions: ["tex2jax.js","mml2jax.js","asciimath2jax.js","MathMenu.js","MathZoom.js","AssistiveMML.js", "[Contrib]/a11y/accessibility-menu.js"],
-                TeX: {
-                extensions: ["AMSmath.js","AMSsymbols.js","noErrors.js","noUndefined.js"],
-                equationNumbers: {
-                autoNumber: "AMS"
-                }
-                }
-                });
-       </script>
+        
+    
   </body>
 </html>

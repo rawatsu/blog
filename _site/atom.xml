@@ -4,7 +4,7 @@
  <title>Subhandu Rawat</title>
  <link href="http://localhost:4000/blog/atom.xml" rel="self"/>
  <link href="http://localhost:4000/blog/"/>
- <updated>2020-06-04T18:16:52+05:30</updated>
+ <updated>2020-06-04T18:53:11+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Subhandu Rawat</name>
@@ -28,6 +28,8 @@
 &lt;p&gt;Find out more by &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
 
 &lt;p&gt;In last few decades, dynamical system theory have found its way to theory of turbulence. Fluid flow can be explained from the solution of Navier-Stokes equation. The solution described by this  nonlinear partial differential equation is infinite dimensional, as one need infinite ordinary differential equation to solve this PDE. Hopf conjectured that solution of N-S equations can be represented as a point in an infinite-dimensional phase space of the problem, constituted by suitably chosen state space variables. He further hypothesized that these solution lie on a finite dimensional manifold, size of whose dimension depends upon the viscosity, varing from 0 for (\nu \to \infty ), to (\infty) for (\nu \to 0). This low-dimensional manifold  becomes unstable and bifurcates into many other branches as viscosity (\nu) is decreased. It can be demonstrated mathematically that the solutions of dissipative PDE’s are restricted to global attracters which are embedded in inertial manifolds.&lt;/p&gt;
+
+\[\frac{1}{n^{2}}\]
 
 </content>
  </entry>
