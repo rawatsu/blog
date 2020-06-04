@@ -1,0 +1,19 @@
+I"û<p>In last few decades, dynamical system theory have found its way to theory of turbulence. Fluid flow can be explained from the solution of Navier-Stokes equation. The solution described by this  nonlinear partial differential equation is infinite dimensional, as one need infinite ordinary differential equation to solve this PDE. <a href="https://en.wikipedia.org/wiki/Eberhard_Hopf">Hopf</a> conjectured that solution of N-S equations can be represented as a point in an infinite-dimensional phase space of the problem, constituted by suitably chosen state space variables.</p>
+
+<blockquote>
+  <p>He further hypothesized that these solution lie on a finite dimensional manifold, size of whose dimension depends upon the viscosity, varing from 0 for \(\nu \to \infty\), to \(\infty\) for \(\nu \to 0\). This low-dimensional manifold  becomes unstable and bifurcates into many other branches as viscosity \(\nu\) is decreased.</p>
+</blockquote>
+
+<p>It can be demonstrated mathematically that the solutions of dissipative PDEâ€™s are restricted to global attracters which are embedded in inertial manifolds.</p>
+
+<p>In dynamic system theory the equation of motion is  generally represented as :</p>
+
+<p>\(\frac{d{**u**}}{dt} = **f**(**u**,\nu)\)
+where <strong>f</strong> is a evolution function that map one point in phase space to another. For a deterministic dynamical system like Navier-Stokes, each single point in phase space represents a physical state of the system. Coherent structures observed in turbulent flows are considered 
+to be as low-dimensional invariant sets in phase space. These invariant states can be classified into three main categories :</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> 1. $$\frac{d\textbf{u}}{dt} = f(u,\nu) = 0$$; Travelling waves, equillibrium points.
+ 2. $$\textbf{u(x,t)} = \textbf{u(x,t+T)}$$;  periodic or relative periodic orbits.
+ 3. $$\textbf{u(x,t)} \neq \textbf{u(x,t')}$$;  for all \(t \neq t'\) aperiodic trajectories.
+</code></pre></div></div>
+:ET

@@ -4,7 +4,7 @@
  <title>Subhandu Rawat</title>
  <link href="http://localhost:4000/blog/atom.xml" rel="self"/>
  <link href="http://localhost:4000/blog/"/>
- <updated>2020-06-04T18:53:11+05:30</updated>
+ <updated>2020-06-04T20:52:04+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Subhandu Rawat</name>
@@ -17,20 +17,25 @@
    <link href="http://localhost:4000/turbulence/fluid-dynamics/dynamical-system/Dynamical_system-Turbulence/"/>
    <updated>2020-06-04T00:00:00+05:30</updated>
    <id>http://localhost:4000/blog/turbulence/fluid-dynamics/dynamical-system/Dynamical_system-Turbulence</id>
-   <content type="html">&lt;p&gt;&lt;a href=&quot;https://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project’s readme&lt;/a&gt;:&lt;/p&gt;
+   <content type="html">&lt;p&gt;In last few decades, dynamical system theory have found its way to theory of turbulence. Fluid flow can be explained from the solution of Navier-Stokes equation. The solution described by this  nonlinear partial differential equation is infinite dimensional, as one need infinite ordinary differential equation to solve this PDE. &lt;a href=&quot;https://en.wikipedia.org/wiki/Eberhard_Hopf&quot;&gt;Hopf&lt;/a&gt; conjectured that solution of N-S equations can be represented as a point in an infinite-dimensional phase space of the problem, constituted by suitably chosen state space variables.&lt;/p&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;Jekyll is a simple, blog aware, static site generator. It takes a template directory […] and spits out a complete, static website suitable for serving with Apache or your favorite web server. This is also the engine behind GitHub Pages, which you can use to host your project’s page or blog right here from GitHub.&lt;/p&gt;
+  &lt;p&gt;He further hypothesized that these solution lie on a finite dimensional manifold, size of whose dimension depends upon the viscosity, varing from 0 for \(\nu \to \infty\), to \(\infty\) for \(\nu \to 0\). This low-dimensional manifold  becomes unstable and bifurcates into many other branches as viscosity \(\nu\) is decreased.&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;p&gt;It’s an immensely useful tool and one we encourage you to use here with Lanyon.&lt;/p&gt;
+&lt;p&gt;It can be demonstrated mathematically that the solutions of dissipative PDE’s are restricted to global attracters which are embedded in inertial manifolds.&lt;/p&gt;
 
-&lt;p&gt;Find out more by &lt;a href=&quot;https://github.com/mojombo/jekyll&quot;&gt;visiting the project on GitHub&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;In dynamic system theory the equation of motion is  generally represented as :&lt;/p&gt;
 
-&lt;p&gt;In last few decades, dynamical system theory have found its way to theory of turbulence. Fluid flow can be explained from the solution of Navier-Stokes equation. The solution described by this  nonlinear partial differential equation is infinite dimensional, as one need infinite ordinary differential equation to solve this PDE. Hopf conjectured that solution of N-S equations can be represented as a point in an infinite-dimensional phase space of the problem, constituted by suitably chosen state space variables. He further hypothesized that these solution lie on a finite dimensional manifold, size of whose dimension depends upon the viscosity, varing from 0 for (\nu \to \infty ), to (\infty) for (\nu \to 0). This low-dimensional manifold  becomes unstable and bifurcates into many other branches as viscosity (\nu) is decreased. It can be demonstrated mathematically that the solutions of dissipative PDE’s are restricted to global attracters which are embedded in inertial manifolds.&lt;/p&gt;
+&lt;p&gt;\(\frac{d{**u**}}{dt} = **f**(**u**,\nu)\)
+where &lt;strong&gt;f&lt;/strong&gt; is a evolution function that map one point in phase space to another. For a deterministic dynamical system like Navier-Stokes, each single point in phase space represents a physical state of the system. Coherent structures observed in turbulent flows are considered 
+to be as low-dimensional invariant sets in phase space. These invariant states can be classified into three main categories :&lt;/p&gt;
 
-\[\frac{1}{n^{2}}\]
-
+&lt;ol&gt;
+  &lt;li&gt;\(\frac{d**u**}{dt} = f(**u**,\nu) = 0\); Travelling waves, equillibrium points.&lt;/li&gt;
+  &lt;li&gt;\(**u**(x,t) = **u**(x,t+T)\);  periodic or relative periodic orbits.&lt;/li&gt;
+  &lt;li&gt;\(**u**(x,t) \neq **u**(x,t')\);  for all \(t \neq t'\) aperiodic trajectories.&lt;/li&gt;
+&lt;/ol&gt;
 </content>
  </entry>
  
