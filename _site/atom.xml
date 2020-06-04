@@ -4,13 +4,40 @@
  <title>Subhandu Rawat</title>
  <link href="http://localhost:4000/blog/atom.xml" rel="self"/>
  <link href="http://localhost:4000/blog/"/>
- <updated>2020-06-04T20:52:04+05:30</updated>
+ <updated>2020-06-04T23:54:55+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Subhandu Rawat</name>
    <email>subhandurawat@gmail.com</email>
  </author>
 
+ 
+ <entry>
+   <title>Near wall structures in Wall bounded flows</title>
+   <link href="http://localhost:4000/turbulence/fluid-dynamics/dynamical-system/Wall-Bounded-Flows/"/>
+   <updated>2020-06-04T00:00:00+05:30</updated>
+   <id>http://localhost:4000/blog/turbulence/fluid-dynamics/dynamical-system/Wall-Bounded-Flows</id>
+   <content type="html">&lt;p&gt;In last few decades, dynamical system theory have found its way to theory of turbulence. Fluid flow can be explained from the solution of Navier-Stokes equation. The solution described by this  nonlinear partial differential equation is infinite dimensional, as one need infinite ordinary differential equation to solve this PDE. &lt;a href=&quot;https://en.wikipedia.org/wiki/Eberhard_Hopf&quot;&gt;Hopf&lt;/a&gt; conjectured that solution of N-S equations can be represented as a point in an infinite-dimensional phase space of the problem, constituted by suitably chosen state space variables.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;He further hypothesized that these solution lie on a finite dimensional manifold, size of whose dimension depends upon the viscosity, varing from 0 for \(\nu \to \infty\), to \(\infty\) for \(\nu \to 0\). This low-dimensional manifold  becomes unstable and bifurcates into many other branches as viscosity \(\nu\) is decreased.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;It can be demonstrated mathematically that the solutions of dissipative PDE’s are restricted to global attracters which are embedded in inertial manifolds.&lt;/p&gt;
+
+&lt;p&gt;In dynamic system theory the equation of motion is  generally represented as :&lt;/p&gt;
+
+\[\frac{d \mathbf{u}}{dt} = \mathbf{f}(\mathbf{u},\nu)\]
+
+&lt;p&gt;where &lt;strong&gt;f&lt;/strong&gt; is a evolution function that map one point in phase space to another. For a deterministic dynamical system like Navier-Stokes, each single point in phase space represents a physical state of the system. Coherent structures observed in turbulent flows are considered  to be as low-dimensional invariant sets in phase space. These invariant states can be classified into three main categories :&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;\(\frac{d \mathbf{u}}{dt} = \mathbf{f}(\mathbf{u},\nu) = 0\); Travelling waves, equillibrium points.&lt;/li&gt;
+  &lt;li&gt;\(\mathbf{u}(\mathbf{x},t) = \mathbf{u}(\mathbf{x},t+T)\);  periodic or relative periodic orbits.&lt;/li&gt;
+  &lt;li&gt;\(\mathbf{u}(\mathbf{x},t) \neq \mathbf{u}(\mathbf{x},t')\);  for all \(t \neq t'\) aperiodic trajectories.&lt;/li&gt;
+&lt;/ol&gt;
+</content>
+ </entry>
  
  <entry>
    <title>Dynamical system understanding of Turbulence</title>
@@ -27,14 +54,14 @@
 
 &lt;p&gt;In dynamic system theory the equation of motion is  generally represented as :&lt;/p&gt;
 
-&lt;p&gt;\(\frac{d{**u**}}{dt} = **f**(**u**,\nu)\)
-where &lt;strong&gt;f&lt;/strong&gt; is a evolution function that map one point in phase space to another. For a deterministic dynamical system like Navier-Stokes, each single point in phase space represents a physical state of the system. Coherent structures observed in turbulent flows are considered 
-to be as low-dimensional invariant sets in phase space. These invariant states can be classified into three main categories :&lt;/p&gt;
+\[\frac{d \mathbf{u}}{dt} = \mathbf{f}(\mathbf{u},\nu)\]
+
+&lt;p&gt;where &lt;strong&gt;f&lt;/strong&gt; is a evolution function that map one point in phase space to another. For a deterministic dynamical system like Navier-Stokes, each single point in phase space represents a physical state of the system. Coherent structures observed in turbulent flows are considered  to be as low-dimensional invariant sets in phase space. These invariant states can be classified into three main categories :&lt;/p&gt;
 
 &lt;ol&gt;
-  &lt;li&gt;\(\frac{d**u**}{dt} = f(**u**,\nu) = 0\); Travelling waves, equillibrium points.&lt;/li&gt;
-  &lt;li&gt;\(**u**(x,t) = **u**(x,t+T)\);  periodic or relative periodic orbits.&lt;/li&gt;
-  &lt;li&gt;\(**u**(x,t) \neq **u**(x,t')\);  for all \(t \neq t'\) aperiodic trajectories.&lt;/li&gt;
+  &lt;li&gt;\(\frac{d \mathbf{u}}{dt} = \mathbf{f}(\mathbf{u},\nu) = 0\); Travelling waves, equillibrium points.&lt;/li&gt;
+  &lt;li&gt;\(\mathbf{u}(\mathbf{x},t) = \mathbf{u}(\mathbf{x},t+T)\);  periodic or relative periodic orbits.&lt;/li&gt;
+  &lt;li&gt;\(\mathbf{u}(\mathbf{x},t) \neq \mathbf{u}(\mathbf{x},t')\);  for all \(t \neq t'\) aperiodic trajectories.&lt;/li&gt;
 &lt;/ol&gt;
 </content>
  </entry>
