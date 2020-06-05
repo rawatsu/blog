@@ -27,9 +27,11 @@ In this blog post and its successors, we will develop a physical understanding o
 
 
 
-```
-![image](../assets/img/Turbulence/Kline2.jpg)
-```
 
 
+&nbsp;
+
+<img alt="bill-kennedy-gopher-sticker" src="{{ site.production_url}}/assets/Kilne2.jpg">
+
+&nbsp;
 
