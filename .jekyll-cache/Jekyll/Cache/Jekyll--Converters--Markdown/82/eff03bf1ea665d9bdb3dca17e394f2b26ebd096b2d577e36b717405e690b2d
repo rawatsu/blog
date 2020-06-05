@@ -1,4 +1,4 @@
-I"r	<p>Turbulence phenomenon is one of the most challenging research areas in fluid dynamics. Even after decades of dedicated investigation, it remains as evasive as ever.  It affects weather, climate change, irrigation systems, fuel consumption, construction of bridges, artificial heart, vacuum cleaners, washing machines, and rocket propulsion.</p>
+I"�	<p>Turbulence phenomenon is one of the most challenging research areas in fluid dynamics. Even after decades of dedicated investigation, it remains as evasive as ever.  It affects weather, climate change, irrigation systems, fuel consumption, construction of bridges, artificial heart, vacuum cleaners, washing machines, and rocket propulsion.</p>
 
 <p>Turbulence is often cited as</p>
 
@@ -16,40 +16,20 @@
 
 <p> </p>
 
-<p><img src="/blog/assets/Kline2.jpg" title="Kline near-wall experiment" style="width:250px" align="left" /><img src="/blog/assets/Kline2.jpg" title="Kline near-wall experiment" width="250px" margin-left="20px" /></p>
+<p><img class="side_by_side" src="/blog/assets/Kline2.jpg" title="Kline near-wall experiment" width="250px" align="left" hspace="20" /><img class="side_by_side" src="/blog/assets/Kline2.jpg" title="Kline near-wall experiment" width="250px" margin-left="20px" /></p>
 
 <table>
   <thead>
     <tr>
-      <th>Name</th>
-      <th>Upvotes</th>
+      <th><img src="/blog/assets/Kline2.jpg" title="Kline near-wall experiment" style="width:200px" /></th>
+      <th><img src="/blog/assets/Kline2.jpg" title="Kline near-wall experiment" style="width:200px" /></th>
     </tr>
   </thead>
-  <tfoot>
-    <tr>
-      <td>Totals</td>
-      <td>21</td>
-     
-    </tr>
-  </tfoot>
-  <tbody>
-    <tr>
-      <td>Alice</td>
-      <td>10</td>
-     
-    </tr>
-    <tr>
-      <td>Bob</td>
-      <td>4</td>
-      
-    </tr>
-    <tr>
-      <td>Charlie</td>
-      <td>7</td>
-      <td>9</td>
-    </tr>
-  </tbody>
+
+
 </table>
+
+<p><img src="/blog/assets/Kline2.jpg" alt="" />{ width: 200px; } <img src="/blog/assets/Kline2.jpg" alt="" /></p>
 
 <p> </p>
 

@@ -23,7 +23,7 @@ In this blog post and its successors, we will develop a physical understanding o
 
 &nbsp;
 
-<img src="{{ site.baseurl}}/assets/Kline2.jpg" title="Kline near-wall experiment" style="width:250px" align="left" /><img src="{{ site.baseurl}}/assets/Kline2.jpg" title="Kline near-wall experiment" width="250px" margin-left="20px" />
+<img class="side_by_side" src="{{ site.baseurl}}/assets/Kline2.jpg" title="Kline near-wall experiment" width="250px" align="left" hspace="20" /><img class="side_by_side" src="{{ site.baseurl}}/assets/Kline2.jpg" title="Kline near-wall experiment" width="250px" margin-left="20px" />
 
 
 
@@ -35,12 +35,22 @@ In this blog post and its successors, we will develop a physical understanding o
     </tr>
   </thead>
 
-
 </table>
 
+<style>
+  .side-by-side>img{
+    width:200px;
+    padding-right: 10px;
+}
+</style>
 
 
-![]({{ site.baseurl}}/assets/Kline2.jpg) 
+
+![]({{ site.baseurl}}/assets/Kline2.jpg){: width=200px style="float:left; padding:16px"}![]({{ site.baseurl}}/assets/Kline2.jpg){: width=200px style="float:left; padding:16px"}
+
+
+
+
 
 &nbsp;
 

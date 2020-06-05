@@ -1,0 +1,43 @@
+I"
+<p>Turbulence phenomenon is one of the most challenging research areas in fluid dynamics. Even after decades of dedicated investigation, it remains as evasive as ever.  It affects weather, climate change, irrigation systems, fuel consumption, construction of bridges, artificial heart, vacuum cleaners, washing machines, and rocket propulsion.</p>
+
+<p>Turbulence is often cited as</p>
+
+<blockquote>
+  <p>“the last great unsolved problem of classical physics.”</p>
+</blockquote>
+
+<p>So what makes turbulence so complicated? Some of the complexity arises from the wide range of length and time scale of the <a href="#near-wall-structures"><em>coherent structures</em></a>  interacting with each other. Turbulence phenomenon becomes increasingly complex in the presence of a wall. Wall introduces new length scales and changes the nature of turbulence. Turbulence structures closest to the wall are smallest, and as we move away from the wall, they scale according to this distance.</p>
+
+<p>Resolving small scale turbulent structures demands very high mesh count or data points. That is why in industries, turbulence is generally modelled rather than resolved with <em>Reynolds-Average-Navier-Stokes equations</em> (<strong>RANS</strong>). New CFD practitioners are often confused about the mesh resolution they should choose especially close to the wall. It takes many years of practice and a lot of trails to get the mesh resolution correct.  Its often said that creating a good mesh is as much an art as a science.</p>
+
+<p>In this blog post and its successors, we will develop a physical understanding of near-wall turbulence and give an intuitive approach to resolve near-wall turbulence structures.</p>
+
+<h2 id="near-wall-turbulence">Near-Wall turbulence</h2>
+
+<p> </p>
+
+<p><img class="side_by_side" src="/blog/assets/Kline2.jpg" title="Kline near-wall experiment" width="250px" align="left" hspace="20" /><img class="side_by_side" src="/blog/assets/Kline2.jpg" title="Kline near-wall experiment" width="250px" margin-left="20px" /></p>
+
+<table>
+  <thead>
+    <tr>
+      <th><img src="/blog/assets/Kline2.jpg" title="Kline near-wall experiment" style="width:200px" /></th>
+      <th><img src="/blog/assets/Kline2.jpg" title="Kline near-wall experiment" style="width:200px" /></th>
+    </tr>
+  </thead>
+
+</table>
+
+<style>
+  .side-by-side>img{
+    width:200px;
+    padding-right: 10px;
+}
+</style>
+
+<p><img src="/blog/assets/Kline2.jpg" alt="" style="float:left; padding:16px" /><img src="/blog/assets/Kline2.jpg" alt="" style="float:left; padding:16px" /></p>
+
+<p> </p>
+
+:ET
