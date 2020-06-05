@@ -4,7 +4,7 @@
  <title>Subhandu Rawat</title>
  <link href="http://localhost:4000/blog/atom.xml" rel="self"/>
  <link href="http://localhost:4000/blog/"/>
- <updated>2020-06-05T17:04:06+05:30</updated>
+ <updated>2020-06-05T17:13:10+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Subhandu Rawat</name>
@@ -35,7 +35,7 @@
 
 &lt;p&gt;&lt;img src=&quot;/blog/img/Turbulence/Kline2.jpg&quot; title=&quot;Kline near-wall experiment&quot; width=&quot;250px&quot; /&gt;&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![image](/blog/img/Turbulence/Kline2.jpg)
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;![image](../assets/img/Turbulence/Kline2.jpg)
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 </content>

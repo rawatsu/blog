@@ -1,4 +1,4 @@
-I"æ<p>Turbulence phenomenon is one of the most challenging research areas in fluid dynamics. Even after decades of dedicated investigation, it remains as evasive as ever.  It affects weather, climate change, irrigation systems, fuel consumption, construction of bridges, artificial heart, vacuum cleaners, washing machines, and rocket propulsion.</p>
+I"é<p>Turbulence phenomenon is one of the most challenging research areas in fluid dynamics. Even after decades of dedicated investigation, it remains as evasive as ever.  It affects weather, climate change, irrigation systems, fuel consumption, construction of bridges, artificial heart, vacuum cleaners, washing machines, and rocket propulsion.</p>
 
 <p>Turbulence is often cited as</p>
 
@@ -12,5 +12,11 @@
 
 <p>In this blog post and its successors, we will develop a physical understanding of near-wall turbulence and give an intuitive approach to resolve near-wall turbulence structures.</p>
 
-<h2 id="near-wall-structures">Near-Wall structures</h2>
+<h2 id="near-wall-turbulence">Near-Wall turbulence</h2>
+
+<p><img src="/blog/img/Turbulence/Kline2.jpg" title="Kline near-wall experiment" width="250px" /></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[image](../assets/img/Turbulence/Kline2.jpg)
+</code></pre></div></div>
+
 :ET

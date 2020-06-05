@@ -28,7 +28,7 @@ In this blog post and its successors, we will develop a physical understanding o
 
 
 ```
-![image]({{ site.baseurl }}/img/Turbulence/Kline2.jpg)
+![image](../assets/img/Turbulence/Kline2.jpg)
 ```
 
 
