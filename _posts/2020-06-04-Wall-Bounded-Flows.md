@@ -1,24 +1,35 @@
 ---
 layout: post
-title: Near wall structures in Wall bounded flows
+title: Turbulence in wall bounded flows
 categories: Turbulence Fluid-Dynamics Dynamical-system
 usemathjax: true
 ---
 
-In last few decades, dynamical system theory have found its way to theory of turbulence. Fluid flow can be explained from the solution of Navier-Stokes equation. The solution described by this  nonlinear partial differential equation is infinite dimensional, as one need infinite ordinary differential equation to solve this PDE. [Hopf](https://en.wikipedia.org/wiki/Eberhard_Hopf) conjectured that solution of N-S equations can be represented as a point in an infinite-dimensional phase space of the problem, constituted by suitably chosen state space variables. 
+Turbulence phenomenon is one of the most challenging research areas in fluid dynamics. Even after decades of dedicated investigation, it remains as evasive as ever.  It affects weather, climate change, irrigation systems, fuel consumption, construction of bridges, artificial heart, vacuum cleaners, washing machines, and rocket propulsion.  
 
->He further hypothesized that these solution lie on a finite dimensional manifold, size of whose dimension depends upon the viscosity, varing from 0 for $$\nu \to \infty$$, to $$\infty$$ for $$\nu \to 0$$. This low-dimensional manifold  becomes unstable and bifurcates into many other branches as viscosity $$\nu$$ is decreased. 
+Turbulence is often cited as 
 
-It can be demonstrated mathematically that the solutions of dissipative PDE's are restricted to global attracters which are embedded in inertial manifolds.
+> “the last great unsolved problem of classical physics.”
 
-In dynamic system theory the equation of motion is  generally represented as :
+So what makes turbulence so complicated? Some of the complexity arises from the wide range of length and time scale of the [*coherent structures*](#near-wall-structures)  interacting with each other. Turbulence phenomenon becomes increasingly complex in the presence of a wall. Wall introduces new length scales and changes the nature of turbulence. Turbulence structures closest to the wall are smallest, and as we move away from the wall, they scale according to this distance. 
 
- $$\frac{d \mathbf{u}}{dt} = \mathbf{f}(\mathbf{u},\nu)$$
+Resolving small scale turbulent structures demands very high mesh count or data points. That is why in industries, turbulence is generally modelled rather than resolved with *Reynolds-Average-Navier-Stokes equations* (**RANS**). New CFD practitioners are often confused about the mesh resolution they should choose especially close to the wall. It takes many years of practice and a lot of trails to get the mesh resolution correct.  Its often said that creating a good mesh is as much an art as a science. 
 
-where **f** is a evolution function that map one point in phase space to another. For a deterministic dynamical system like Navier-Stokes, each single point in phase space represents a physical state of the system. Coherent structures observed in turbulent flows are considered  to be as low-dimensional invariant sets in phase space. These invariant states can be classified into three main categories :
+In this blog post and its successors, we will develop a physical understanding of near-wall turbulence and give an intuitive approach to resolve near-wall turbulence structures. 
 
 
 
-1. $$\frac{d \mathbf{u}}{dt} = \mathbf{f}(\mathbf{u},\nu) = 0$$; Travelling waves, equillibrium points.
- 2. $$\mathbf{u}(\mathbf{x},t) = \mathbf{u}(\mathbf{x},t+T)$$;  periodic or relative periodic orbits.
- 3. $$\mathbf{u}(\mathbf{x},t) \neq \mathbf{u}(\mathbf{x},t')$$;  for all $$t \neq t'$$ aperiodic trajectories. 
+## Near-Wall turbulence
+
+
+
+<img src="{{ site.baseurl }}/img/Turbulence/Kline2.jpg" title="Kline near-wall experiment" width=250px>
+
+
+
+```
+![image]({{ site.baseurl }}/img/Turbulence/Kline2.jpg)
+```
+
+
+
