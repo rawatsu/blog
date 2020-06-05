@@ -23,7 +23,7 @@ In this blog post and its successors, we will develop a physical understanding o
 
 &nbsp;
 
-<img src="{{ site.baseurl}}/assets/Kline2.jpg" title="Kline near-wall experiment" width=250px>
+<img src="{{ site.baseurl}}/assets/Kline2.jpg" title="Kline near-wall experiment" width="250px">
 
 &nbsp;
 
