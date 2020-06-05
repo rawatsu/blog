@@ -4,7 +4,7 @@
  <title>Subhandu Rawat</title>
  <link href="http://localhost:4000/blog/atom.xml" rel="self"/>
  <link href="http://localhost:4000/blog/"/>
- <updated>2020-06-05T19:32:02+05:30</updated>
+ <updated>2020-06-05T19:44:52+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Subhandu Rawat</name>
@@ -36,6 +36,19 @@
 &lt;p&gt; &lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/blog/assets/Kline2.jpg&quot; title=&quot;Kline near-wall experiment&quot; style=&quot;width:250px&quot; align=&quot;left&quot; /&gt;&lt;img src=&quot;/blog/assets/Kline2.jpg&quot; title=&quot;Kline near-wall experiment&quot; width=&quot;250px&quot; margin-left=&quot;20px&quot; /&gt;&lt;/p&gt;
+
+&lt;table&gt;
+  &lt;thead&gt;
+    &lt;tr&gt;
+      &lt;th&gt;&lt;img src=&quot;/blog/assets/Kline2.jpg&quot; title=&quot;Kline near-wall experiment&quot; style=&quot;width:200px&quot; /&gt;&lt;/th&gt;
+      &lt;th&gt;&lt;img src=&quot;/blog/assets/Kline2.jpg&quot; title=&quot;Kline near-wall experiment&quot; style=&quot;width:200px&quot; /&gt;&lt;/th&gt;
+    &lt;/tr&gt;
+  &lt;/thead&gt;
+
+
+&lt;/table&gt;
+
+&lt;p&gt;&lt;img src=&quot;/blog/assets/Kline2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt; &lt;/p&gt;
 

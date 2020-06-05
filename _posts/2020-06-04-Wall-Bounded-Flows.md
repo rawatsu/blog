@@ -25,5 +25,22 @@ In this blog post and its successors, we will develop a physical understanding o
 
 <img src="{{ site.baseurl}}/assets/Kline2.jpg" title="Kline near-wall experiment" style="width:250px" align="left" /><img src="{{ site.baseurl}}/assets/Kline2.jpg" title="Kline near-wall experiment" width="250px" margin-left="20px" />
 
+
+
+<table>
+  <thead>
+    <tr>
+      <th><img src="{{ site.baseurl}}/assets/Kline2.jpg" title="Kline near-wall experiment" style="width:200px" /></th>
+      <th><img src="{{ site.baseurl}}/assets/Kline2.jpg" title="Kline near-wall experiment" style="width:200px"/></th>
+    </tr>
+  </thead>
+
+
+</table>
+
+
+
+![]({{ site.baseurl}}/assets/Kline2.jpg) 
+
 &nbsp;
 
