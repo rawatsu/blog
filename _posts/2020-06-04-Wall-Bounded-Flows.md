@@ -21,17 +21,9 @@ In this blog post and its successors, we will develop a physical understanding o
 
 ## Near-Wall turbulence
 
-
-
-<img src="../assets/img/Turbulence/Kline2.jpg" title="Kline near-wall experiment" width=250px>
-
-
-
-
-
 &nbsp;
 
-<img alt="bill-kennedy-gopher-sticker" src="{{ site.production_url}}/assets/Kilne2.jpg">
+<img src="{{ site.baseurl}}/assets/Kline2.jpg" title="Kline near-wall experiment" width=250px>
 
 &nbsp;
 

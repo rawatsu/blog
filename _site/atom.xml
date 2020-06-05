@@ -4,7 +4,7 @@
  <title>Subhandu Rawat</title>
  <link href="http://localhost:4000/blog/atom.xml" rel="self"/>
  <link href="http://localhost:4000/blog/"/>
- <updated>2020-06-05T18:22:30+05:30</updated>
+ <updated>2020-06-05T18:33:22+05:30</updated>
  <id>http://localhost:4000</id>
  <author>
    <name>Subhandu Rawat</name>
@@ -33,11 +33,9 @@
 
 &lt;h2 id=&quot;near-wall-turbulence&quot;&gt;Near-Wall turbulence&lt;/h2&gt;
 
-&lt;p&gt;&lt;img src=&quot;../assets/img/Turbulence/Kline2.jpg&quot; title=&quot;Kline near-wall experiment&quot; width=&quot;250px&quot; /&gt;&lt;/p&gt;
-
 &lt;p&gt; &lt;/p&gt;
 
-&lt;p&gt;&lt;img alt=&quot;bill-kennedy-gopher-sticker&quot; src=&quot;https://rawatsu.github.io/blog/assets/Kilne2.jpg&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/blog/assets/Kline2.jpg&quot; title=&quot;Kline near-wall experiment&quot; width=&quot;250px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt; &lt;/p&gt;
 
